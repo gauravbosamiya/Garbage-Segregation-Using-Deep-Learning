@@ -13,8 +13,8 @@ logging.basicConfig(
     format=logging_str,
     
     handlers=[
-        logging.FileHandler(log_filepath),
-        logging.StreamHandler(sys.stdout)  
+        logging.FileHandler(log_filepath), # FileHandler save the logs inside the folder
+        logging.StreamHandler(sys.stdout)  # StreamHandler print the logs on terminal itself
     ]
 )
 logger = logging.getLogger("GarbageClassification")
