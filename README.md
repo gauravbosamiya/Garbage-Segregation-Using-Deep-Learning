@@ -5,7 +5,7 @@
 - This notebook implements a garbage segregation model using the Xception architecture. It incorporates both image and gas sensor data and trains for 100 epochs.
 
 2. Dependencies Installation
-- pip install tensorflow matplotlib seaborn gdown numpy 
+- pip install tensorflow matplotlib seaborn gdown numpy pandas
 
 4. Data Download & Extraction
 - The dataset is downloaded from Google Drive using gdown.
